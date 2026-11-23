@@ -1,14 +1,16 @@
 # physics-pdf-to-latex
 
-把**高中物理试卷 / 高考真题 PDF** 批量转成符合 **MathLive** 规范的 LaTeX 源码：题干、选项、公式转写为 LaTeX，无法公式化的装置图、电路图、光路图按题裁切为本地图片，并为每道题写好自解析与答案。
+> 仓库地址：https://github.com/DodgeHo/physics-pdf-to-latex
+
+为 **tapphysics** 服务：把**高中物理试卷 / 高考真题 PDF** 批量转成符合 **MathLive** 规范的 LaTeX 源码：题干、选项、公式转写为 LaTeX，无法公式化的装置图、电路图、光路图按题裁切为本地图片，并为每道题写好自解析与答案。
 
 ---
 
 ## 一句话上手（给外行）
 
-下载本仓库后，**把下面这句话连同仓库地址（或解压后的文件夹）一起发给你的 AI 助手**，它会自动读完说明、把技能装好：
+直接把下面这句话发给你的 AI 助手，它会主动到上面的 GitHub 仓库下载（或读取）代码，把技能装好：
 
-> 请阅读这个仓库的 `README.md`，把 `physics-pdf-to-latex` 文件夹安装到你的用户技能目录（`.user_skills`），装好后回复我；以后我发物理试卷 PDF，就用它转成 MathLive 能渲染的 LaTeX 并配解析。
+> 请到 https://github.com/DodgeHo/physics-pdf-to-latex 下载（或读取）这个仓库，把里面的 `physics-pdf-to-latex` 技能文件夹安装到你的用户技能目录（`.user_skills`），装好后回复我；以后我发物理试卷 PDF，就用它转成 MathLive 能渲染的 LaTeX 并配解析。
 
 装好之后，以后直接发试卷 PDF，再说一句：
 
@@ -24,10 +26,18 @@
 4. **撰写解析**：用自己的语言重写物理过程——选择题逐项判断对错，计算题列方程、代入数值、给出结果与单位。
 5. **自动校验**：检查图片引用是否命中、题号是否齐全、有无 MathLive 不支持的命令或残留格式。
 
-## 手动安装
+## 安装
 
-1. 下载本仓库 ZIP 并解压。
-2. 把整个 `physics-pdf-to-latex` 文件夹复制到你的 AI 工作区的用户技能目录：
+### 方式一：让 AI 自动安装（推荐）
+
+把下面这句话发给 AI，它会主动克隆 / 读取仓库并完成安装：
+
+> 到 https://github.com/DodgeHo/physics-pdf-to-latex 下载仓库，把 `physics-pdf-to-latex` 文件夹放到我的用户技能目录（`.user_skills`）。
+
+### 方式二：手动安装
+
+1. 打开 https://github.com/DodgeHo/physics-pdf-to-latex ，点 `Code` → `Download ZIP`（或 `git clone https://github.com/DodgeHo/physics-pdf-to-latex.git`）。
+2. 解压后，把整个 `physics-pdf-to-latex` 文件夹复制到你的 AI 工作区的用户技能目录：
 
    ```
    <工作区>/workspace/.user_skills/physics-pdf-to-latex
