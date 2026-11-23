@@ -16,7 +16,7 @@ import pathlib
 import re
 
 FORBIDDEN = [r"\hline", "itemize", r"\ce", r"\align", "tabular"]
-LEFTOVER = [r"\vspace", r"\quad", r"\qquad", r"\_"]
+LEFTOVER = [r"\vspace", r"\quad", r"\qquad", r"\_", r"\textbf"]
 IMG_RE = re.compile(r"\{([A-Za-z]:/[^}]+?\.(?:png|jpg|jpeg|gif|svg))\}")
 Q_RE = re.compile(r"^\\noindent\s*(\d+)\.", re.M)
 
